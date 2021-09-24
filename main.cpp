@@ -6,13 +6,20 @@ int main()
   cout<<"Select a option ";
   cin>>option;
 
-if(option=='a')
+switch (option)
+{
+case 'a':
 cout<<"Hello dude";
-else if (option=='b')
+break;
+case 'b':
 cout<<"Hey dude";
-else if (option=='c')
+break;
+case 'c':
 cout<<"Hai dude";
-else 
+break;
+default:
+
 cout<<"Iam still learing";
 
+}
 }
